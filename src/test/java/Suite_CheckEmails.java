@@ -1,25 +1,35 @@
 import Data.CustomDataProvider;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 import static org.testng.TestRunner.PriorityWeight.dependsOnMethods;
 
+@Listeners({AllureListener.class})
 public class Suite_CheckEmails extends TestBase {
     private Integer targetEmails = 0;
+    public WebDriver driver;
+
+    @BeforeClass
+    public void setup() throws IOException {
+        TestBase tb = new TestBase();
+        driver = tb.initializeDriver();
+        driver.get("https://mail.ru/");
+    }
 
     @Test(dataProvider = "LoginDataProvider", dataProviderClass = CustomDataProvider.class, priority = 1)
     @Description("Login to mail box")
     void loginToEmail(String email, String password) throws IOException, InterruptedException {
-        driver = initializeDriver();
-        driver.get("https://mail.ru/");
 
         String title = driver.getTitle();
         Assert.assertEquals("Mail.ru: почта, поиск в интернете, новости, игры", title);
@@ -57,7 +67,7 @@ public class Suite_CheckEmails extends TestBase {
         wait.until(ExpectedConditions.elementToBeClickable(inputEmail));
         inputEmail.sendKeys("vukolovanton92@gmail.com");
         inputSubject.sendKeys("Количество писем");
-        inputText.sendKeys("Всего писем от нужного отправителя - " + targetEmails);
+        inputText.sendKeys("Я собираю количество писем от отправителя vukolovanton92@gmail.com. Всего их " + targetEmails);
 
         driver.findElement(By.xpath("//span[text()='Отправить']")).click();
     }

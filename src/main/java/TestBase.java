@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     public WebDriver driver;
+    public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 
     public WebDriver initializeDriver() throws IOException {
         Properties props = new Properties();
@@ -28,6 +29,12 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        return driver;
+        tdriver.set(driver);
+
+        return getDriver();
+    }
+
+    public static synchronized WebDriver getDriver() {
+        return tdriver.get();
     }
 }

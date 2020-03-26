@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-26T21:09:20 GMT+04:00" name="All Test Suite" finished-at="2020-03-26T21:09:31 GMT+04:00" duration-ms="10781">
+    <groups>
+    </groups>
+    <test started-at="2020-03-26T21:09:20 GMT+04:00" name="Test" finished-at="2020-03-26T21:09:31 GMT+04:00" duration-ms="10781">
+      <class name="Suite_CheckEmails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Suite_CheckEmails@88a8218]" started-at="2020-03-26T21:09:20 GMT+04:00" name="setup" finished-at="2020-03-26T21:09:26 GMT+04:00" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginToEmail(java.lang.String, java.lang.String)[pri:1, instance:Suite_CheckEmails@88a8218]" started-at="2020-03-26T21:09:26 GMT+04:00" name="loginToEmail" data-provider="LoginDataProvider" finished-at="2020-03-26T21:09:27 GMT+04:00" duration-ms="1644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testnordclan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4815162342pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToEmail -->
+        <test-method signature="checkForEmails()[pri:2, instance:Suite_CheckEmails@88a8218]" started-at="2020-03-26T21:09:27 GMT+04:00" name="checkForEmails" finished-at="2020-03-26T21:09:29 GMT+04:00" depends-on-methods="Suite_CheckEmails.loginToEmail" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForEmails -->
+        <test-method signature="createNewEmail()[pri:3, instance:Suite_CheckEmails@88a8218]" started-at="2020-03-26T21:09:29 GMT+04:00" name="createNewEmail" finished-at="2020-03-26T21:09:30 GMT+04:00" depends-on-methods="Suite_CheckEmails.checkForEmails" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Suite_CheckEmails@88a8218]" started-at="2020-03-26T21:09:30 GMT+04:00" name="tearDown" finished-at="2020-03-26T21:09:31 GMT+04:00" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Suite_CheckEmails -->
+    </test> <!-- Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
