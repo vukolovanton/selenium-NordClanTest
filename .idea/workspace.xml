@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="005e2dc0-a250-4bfc-aa26-87a99b3f381d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datadriver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/datadriver.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NordClan_Test.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,5 @@
 import Data.CustomDataProvider;
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -8,7 +9,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.List;
 
 import static org.testng.TestRunner.PriorityWeight.dependsOnMethods;
 
@@ -16,6 +16,7 @@ public class Suite_CheckEmails extends TestBase {
     private Integer targetEmails = 0;
 
     @Test(dataProvider = "LoginDataProvider", dataProviderClass = CustomDataProvider.class, priority = 1)
+    @Description("Login to mail box")
     void loginToEmail(String email, String password) throws IOException, InterruptedException {
         driver = initializeDriver();
         driver.get("https://mail.ru/");
@@ -35,6 +36,7 @@ public class Suite_CheckEmails extends TestBase {
     }
 
     @Test(dependsOnMethods = {"loginToEmail"}, priority = 2)
+    @Description("Check for target emails")
     void checkForEmails(){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='compose-button__txt']")));
@@ -43,6 +45,7 @@ public class Suite_CheckEmails extends TestBase {
     }
 
     @Test(dependsOnMethods = {"checkForEmails"}, priority = 3)
+    @Description("Send email with target data")
     void createNewEmail() {
         driver.findElement(By.xpath("//span[@class='compose-button__txt']")).click();
 
