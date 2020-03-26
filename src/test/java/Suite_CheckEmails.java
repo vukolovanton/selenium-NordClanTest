@@ -65,7 +65,7 @@ public class Suite_CheckEmails extends TestBase {
         WebElement inputText = driver.findElement(By.xpath("//div[@role='textbox']"));
 
         wait.until(ExpectedConditions.elementToBeClickable(inputEmail));
-        inputEmail.sendKeys("vukolovanton92@gmail.com");
+        inputEmail.sendKeys("ilya.filinin@nordclan.com");
         inputSubject.sendKeys("Количество писем");
         inputText.sendKeys("Я собираю количество писем от отправителя vukolovanton92@gmail.com. Всего их " + targetEmails);
 
