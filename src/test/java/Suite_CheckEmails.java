@@ -56,7 +56,7 @@ public class Suite_CheckEmails extends TestBase {
         inputSubject.sendKeys("Количество писем");
         inputText.sendKeys("Всего писем от нужного отправителя - " + targetEmails);
 
-        driver.findElement(By.xpath("//span[text()='Отправить']")).sendKeys();
+        driver.findElement(By.xpath("//span[text()='Отправить']")).click();
     }
 
     @AfterClass

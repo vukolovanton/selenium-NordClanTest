@@ -17,15 +17,16 @@ public class TestBase {
         props.load(file);
 
         if (props.getProperty("browser").equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anton\\Desktop\\QA\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src\\chromedriver.exe");
             driver = new ChromeDriver();
         }
         else if (props.getProperty("browser").equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Anton\\Desktop\\QA\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         return driver;
     }
