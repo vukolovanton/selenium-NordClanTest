@@ -1,10 +1,13 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -24,6 +27,8 @@ public class TestBase {
         else if (props.getProperty("browser").equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", "src\\geckodriver.exe");
             driver = new FirefoxDriver();
+        } else if (props.getProperty("browser").equalsIgnoreCase("remote")) {
+            driver = new RemoteWebDriver(new URL("http://localhost:4444"), new ChromeOptions());
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

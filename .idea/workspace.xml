@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="005e2dc0-a250-4bfc-aa26-87a99b3f381d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6a75a46c-b77d-4681-9a9b-cf6205b9bddf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b94cbadd-3f4a-404f-9ee2-9e94a0cc1890-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bddac4f1-c63d-4952-8f26-2eb25e8fc0a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dd7f280c-9763-48b9-a594-e937c968b78d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f5862581-fc9a-4ff4-bce2-b34c69c5359b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fb08069a-d8bc-43c9-880f-ab4e3c008f36-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
