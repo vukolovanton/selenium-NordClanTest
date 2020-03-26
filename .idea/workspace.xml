@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005e2dc0-a250-4bfc-aa26-87a99b3f381d" name="Default Changelist" comment="" />
+    <list default="true" id="005e2dc0-a250-4bfc-aa26-87a99b3f381d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suite_CheckEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suite_CheckEmails.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zf1ijBeumvP3JByRrT5pUPdzdR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,6 +85,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Suite_CheckEmails.loginToEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NordClan_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Suite_CheckEmails" />
+      <option name="METHOD_NAME" value="loginToEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NordClan_Test" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +111,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Suite_CheckEmails" />
+        <item itemvalue="TestNG.Suite_CheckEmails.loginToEmail" />
         <item itemvalue="TestNG.C:/Users/Anton/IdeaProjects/NordClan_Test/testng.xml" />
         <item itemvalue="TestNG.DataProviderExample" />
         <item itemvalue="TestNG.TC1" />
@@ -123,22 +144,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585216668136" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1585226676375">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1585231471737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585226676375" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1585226676375">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585231471737" />
+    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1585231471737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585226676375" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1585226676375">
+    <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585231471737" />
+    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1585231471737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585226676375" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1585226676375">
+    <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585231471737" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1585231471737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585226676375" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1585231471737" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585219832587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
