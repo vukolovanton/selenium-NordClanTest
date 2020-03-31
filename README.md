@@ -1,4 +1,4 @@
-# selenium-NordClanTest
+
 ###
 Запустить тесты - mvn clean test
 ###
